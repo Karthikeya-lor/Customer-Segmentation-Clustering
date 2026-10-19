@@ -1,0 +1,13 @@
+{
+  "status": "PASS",
+  "tracks": [
+    "regression",
+    "classification",
+    "clustering"
+  ],
+  "predictionPaths": 21,
+  "comparisonViews": 19,
+  "metricCells": 698,
+  "mobile": "390px; identical principal-element geometry; no horizontal overflow",
+  "shareableLabAnchor": "PASS; direct load of /#lab opens the original learning lab"
+}
