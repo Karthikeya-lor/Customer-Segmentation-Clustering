@@ -3,5 +3,7 @@
   "comparison_views": 19,
   "model_detail_views": 22,
   "prediction_paths": 21,
-  "track_sections": 15
+  "track_sections": 15,
+  "model_changes_clear_results": true,
+  "numeric_input_edits_clear_results": true
 }

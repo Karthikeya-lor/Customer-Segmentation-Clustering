@@ -208,7 +208,9 @@ def predictions(d):
     if st.button('Load dataset example',key='example_'+d['track']):
         st.session_state['example_mode_'+d['track']]=True
         st.session_state['input_generation_'+d['track']]=st.session_state.get('input_generation_'+d['track'],0)+1
-    with st.form('predict_'+d['track']):
+    # Native widget reruns clear an older result when inputs change. A batched
+    # st.form would keep the previous result visible while users edit inputs.
+    with st.container(border=True):
         cols=st.columns(3);record={}
         counts={'Kidhome','Teenhome','Recency','NumDealsPurchases','NumWebVisitsMonth','Customer_Tenure_Days','Total_Purchases'}
         for i,field in enumerate(d['input_fields']):
@@ -218,7 +220,7 @@ def predictions(d):
                 if field['type']=='category': record[f]=st.selectbox(label,field['choices'],index=field['choices'].index(default),key=key)
                 elif clust and f in counts: record[f]=st.number_input(label,min_value=0,value=int(default),step=1,key=key)
                 else: record[f]=st.number_input(label,min_value=0.0,value=float(default),step=0.01,format='%.6f',key=key)
-        submitted=st.form_submit_button('Find segment' if clust else 'Run prediction',type='primary')
+        submitted=st.button('Find segment' if clust else 'Run prediction',type='primary',key='predict_submit_'+d['track'])
     if submitted:
         try:
             if d['track']=='regression':

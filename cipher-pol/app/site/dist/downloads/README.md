@@ -166,3 +166,9 @@ The private website is branded Cipher Pol. Its final verification covers all 22 
 The deep check fixed numeric export rounding and missing-derived-feature imputation, and replaced KNN regression brute-force distance search with deterministic kd-tree search. Regression notebooks, model artifacts, CV results, plots and website downloads were refreshed together. These checks verify implementation and measured results on the supplied datasets; they do not imply perfect predictions for unseen records.
 
 The model-detail check also restricts odds ratios to logistic regression. Linear SVM coefficients are shown as coefficients, without an invalid odds-ratio interpretation.
+
+## Native Streamlit deployment
+
+Cipher Pol is deployed on Streamlit Community Cloud at https://cipher-pol-learning-lab.streamlit.app/ with private app sharing. The owner approved the public deployment source at https://github.com/Karthikeya-lor/Customer-Segmentation-Clustering/tree/main/cipher-pol. The native entrypoint is `streamlit_app.py`; predictions execute the fitted sklearn joblib pipelines on the Python server. Inputs are sent to that server and the app does not write them to files.
+
+Install `app/streamlit/requirements.txt` and run `python -m streamlit run streamlit_app.py` from this workspace. The isolated local environment is `app/streamlit/.venv/`. Streamlit migration checks cover all 22 detail pages, 19 comparison views, all 15 track/section combinations, and 21 prediction paths. Evidence: `app/streamlit/verification.json`.

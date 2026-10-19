@@ -35,3 +35,10 @@ docker run --rm -p 8501:8501 cipher-pol
 ```
 
 This starts Streamlit on port 8501. Configure access controls on the chosen hosting platform before external publication.
+
+## Verified live deployment
+
+App: https://cipher-pol-learning-lab.streamlit.app/
+Sharing: only specific people can view the app; no viewer invitations were added. Source repository publication was separately approved by the owner. Live sample predictions matched the verified expectations: diamond price 689.24, rice class 0, and customer cluster 2.
+
+Native Streamlit tests passed all 22 model detail views, 19 comparison views, all 15 track/section combinations and 21 prediction paths. Model changes and numeric input edits clear previously submitted results. The verification download combines the full model audit and these migration checks.

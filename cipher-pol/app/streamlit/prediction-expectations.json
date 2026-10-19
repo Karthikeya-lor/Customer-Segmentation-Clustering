@@ -1,0 +1,137 @@
+{
+  "regression": [
+    {
+      "name": "Support Vector Regression",
+      "value": 689.2376479940858
+    },
+    {
+      "name": "Lasso Regression",
+      "value": 1019.2211730733984
+    },
+    {
+      "name": "Linear Regression",
+      "value": 1024.01475650962
+    },
+    {
+      "name": "Ridge Regression",
+      "value": 1022.5883841304612
+    },
+    {
+      "name": "ElasticNet Regression",
+      "value": 1021.1272861136285
+    },
+    {
+      "name": "Polynomial Regression",
+      "value": 906.6709067493525
+    },
+    {
+      "name": "Gradient Boosting Regression",
+      "value": 569.6393025305468
+    },
+    {
+      "name": "Random Forest Regression",
+      "value": 536.43
+    },
+    {
+      "name": "KNN Regression",
+      "value": 559.0
+    },
+    {
+      "name": "Decision Tree Regression",
+      "value": 504.6363636363636
+    }
+  ],
+  "classification": [
+    {
+      "name": "Support Vector Machine",
+      "value": 0.0,
+      "probabilities": [
+        0.9978275147553713,
+        0.002172485244628555
+      ]
+    },
+    {
+      "name": "Logistic Regression",
+      "value": 0.0,
+      "probabilities": [
+        0.9986545912836794,
+        0.001345408716320619
+      ]
+    },
+    {
+      "name": "K-Nearest Neighbors",
+      "value": 0.0,
+      "probabilities": [
+        1.0,
+        0.0
+      ]
+    },
+    {
+      "name": "Gradient Boosting",
+      "value": 0.0,
+      "probabilities": [
+        0.9777975041854853,
+        0.02220249581451473
+      ]
+    },
+    {
+      "name": "AdaBoost",
+      "value": 0.0,
+      "probabilities": [
+        0.8311415774585277,
+        0.16885842254147226
+      ]
+    },
+    {
+      "name": "Random Forest",
+      "value": 0.0,
+      "probabilities": [
+        0.96,
+        0.04
+      ]
+    },
+    {
+      "name": "MLP",
+      "value": 0.0,
+      "probabilities": [
+        0.9344665600066968,
+        0.06553343999330319
+      ]
+    },
+    {
+      "name": "Bagging",
+      "value": 0.0,
+      "probabilities": [
+        0.96,
+        0.04
+      ]
+    },
+    {
+      "name": "Naive Bayes",
+      "value": 0.0,
+      "probabilities": [
+        1.0,
+        3.8627243988744164e-20
+      ]
+    },
+    {
+      "name": "Decision Tree",
+      "value": 0.0,
+      "probabilities": [
+        0.6923076923076923,
+        0.3076923076923077
+      ]
+    }
+  ],
+  "clustering": [
+    {
+      "name": "K-Means",
+      "value": 2,
+      "distances": [
+        4.739098998868834,
+        3.2809644071320183,
+        3.262333092237531
+      ]
+    }
+  ]
+}
