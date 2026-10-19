@@ -2,7 +2,7 @@
 
 Live app: https://cipher-pol-learning-lab.streamlit.app/
 
-Streamlit serves the complete original Cipher Pol website as a local custom component. The original typography, split particle hero, diamond/rice/customer graphics, track cards, four-stage workflow and all five lab sections are retained. No dependency on the previous Sites host is required. The custom component lifecycle bridge only enables hosting, viewport sizing, normal scrolling and shareable section anchors.
+Streamlit serves the complete original Cipher Pol website as a local custom component. The original typography, split particle hero, diamond/rice/customer graphics, track cards, four-stage workflow and all five lab sections are retained. On screens up to 720px wide, the terminal panel sits below the animation to prevent overlap. No dependency on the previous Sites host is required. The custom component lifecycle bridge only enables hosting, viewport sizing, normal scrolling and shareable section anchors.
 
 All 98 non-index frontend assets are byte-identical to `app/site/dist`, including the original CSS, JavaScript, 21 portable fitted models, result catalogues, all 60 figures and executed notebook downloads. The HTML adds only the lifecycle bridge script. Model inputs are evaluated locally in the browser using the audited fitted parameters; they are not uploaded to the Python server. The sklearn joblib artifacts and `app/inference.py` remain the numerical reference.
 

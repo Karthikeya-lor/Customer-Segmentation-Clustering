@@ -18,7 +18,7 @@
     "downloads/regression_comparison.csv": "777b9fdf33442dc02419b0ea8483175554c57447db6dc27f43b0b7bc30e84e6a",
     "downloads/verification.json": "8e0fb92c92a5a5182c36dc0eacef71fd4eceec564e1a6cca92c6004b0d89199b",
     "icon.svg": "5fd47a9c339a00aa452a1146d8dc0f49938683d4c8b11f6e509f81373794813b",
-    "index.html": "e158ebbca2a59895eccfb3e6f8fde41d3ba3aa5ba8fd54a36a5c29ba1698567a",
+    "index.html": "bebb1bbaba7dc8d6e83548655a53f812744f01f210cfffe423fae7a0d9380748",
     "inference.js": "50c79f145929c9e75b532ff8f3024c504b1585d8e2aa26f151914484b3d37e5f",
     "models/adaboost.json": "21787a56a42b54ca13986799ae8eb41b20a466f931dae5961c1f4f90e0df6a74",
     "models/bagging.json": "9b884ea57d736fc609ea7b02ef37b2343504856273de6e359a578ff0a26f7973",
@@ -102,6 +102,6 @@
     "plots/regression__regression_random_forest_importance.png": "abc8e12c3445c3d40a34c48d4c81d9cfc73a064c390ac0912449e6b4fd339547",
     "plots/regression__regression_ridge_diagnostics.png": "395ff1a366dd8c1c6bfb70e9eb5973f5f4cac2c209110b9d82518ce41e4dd02b",
     "plots/regression__regression_support_vector_diagnostics.png": "7223377470bcba96aea0033d50f4b9e579ac93e98231267a0609d923f1329cfb",
-    "styles.css": "88c6397d4503cc4d2a45fea32c4c3461de091956129ca7a3e4a6285fa9ca2b32"
+    "styles.css": "3183e4fe6550df256a741de1482b756d1dc19ead63850adad43aabacdf2537c9"
   }
 }
