@@ -19,7 +19,7 @@ In the original workspace, install `app/streamlit/requirements.txt`, run `python
 
 ## Deployment
 
-Repository: `Karthikeya-lor/Customer-Segmentation-Clustering`. Branch: `main`. Main file: `cipher-pol/streamlit_app.py`. Cloud Python: 3.14. Sharing remains **only specific people can view this app**. Public source publication was separately approved by the owner.
+Repository: `Karthikeya-lor/Customer-Segmentation-Clustering`. Branch: `main`. Main file: `cipher-pol/streamlit_app.py`. Cloud Python: 3.14. Sharing is **public and searchable**, as requested by the owner. Anyone can view the app without signing in. Public source publication was separately approved by the owner.
 
 The bundle contains all website assets and model parameters. Existing original repository files are preserved. Hosting instructions: https://docs.streamlit.io/deploy/streamlit-community-cloud/deploy-your-app/deploy
 
