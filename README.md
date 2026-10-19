@@ -3,7 +3,7 @@ An unsupervised machine learning project that groups customers into similar segm
 
 ## Cipher Pol Streamlit learning lab
 
-The native Streamlit app in [cipher-pol](cipher-pol/) covers diamond regression, rice classification, and customer clustering using verified fitted Python models. See [setup and deployment instructions](cipher-pol/README.md). The original marketing dataset remains at the repository root.
+The Streamlit app in [cipher-pol](cipher-pol/) serves the complete original Cipher Pol website, with diamond regression, rice classification and customer clustering, verified model comparisons, original plots and browser-local inference. See [setup and deployment instructions](cipher-pol/README.md). The original marketing dataset remains at the repository root.
 
 
 Live app: [Cipher Pol on Streamlit](https://cipher-pol-learning-lab.streamlit.app/) (private app access).

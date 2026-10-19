@@ -1,9 +1,9 @@
 {
   "status": "PASS",
-  "comparison_views": 19,
-  "model_detail_views": 22,
-  "prediction_paths": 21,
-  "track_sections": 15,
-  "model_changes_clear_results": true,
-  "numeric_input_edits_clear_results": true
+  "original_assets_byte_identical": 98,
+  "index_only_adds_host_lifecycle_bridge": true,
+  "streamlit_host_registration": "PASS",
+  "browser_checks": "app/streamlit/exact-browser-checks.json",
+  "model_audit": "app/deep-verification.json",
+  "portable_inference_audit": "app/site/model-parity-report.json"
 }

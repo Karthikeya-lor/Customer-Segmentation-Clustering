@@ -167,8 +167,10 @@ The deep check fixed numeric export rounding and missing-derived-feature imputat
 
 The model-detail check also restricts odds ratios to logistic regression. Linear SVM coefficients are shown as coefficients, without an invalid odds-ratio interpretation.
 
-## Native Streamlit deployment
+## Streamlit deployment
 
-Cipher Pol is deployed on Streamlit Community Cloud at https://cipher-pol-learning-lab.streamlit.app/ with private app sharing. The owner approved the public deployment source at https://github.com/Karthikeya-lor/Customer-Segmentation-Clustering/tree/main/cipher-pol. The native entrypoint is `streamlit_app.py`; predictions execute the fitted sklearn joblib pipelines on the Python server. Inputs are sent to that server and the app does not write them to files.
+Cipher Pol is deployed privately at https://cipher-pol-learning-lab.streamlit.app/. Streamlit serves the complete original website through a self-contained custom component, retaining its exact layout, particles, workflow and all lab controls. The CSS, JavaScript, fitted portable models, result data, figures and downloads are copied without changes. A small host bridge enables full-viewport rendering, scrolling and section anchors. The previous Sites host is not required.
 
-Install `app/streamlit/requirements.txt` and run `python -m streamlit run streamlit_app.py` from this workspace. The isolated local environment is `app/streamlit/.venv/`. Streamlit migration checks cover all 22 detail pages, 19 comparison views, all 15 track/section combinations, and 21 prediction paths. Evidence: `app/streamlit/verification.json`.
+The owner approved the public deployment source at https://github.com/Karthikeya-lor/Customer-Segmentation-Clustering/tree/main/cipher-pol. Predictions use the audited fitted parameters locally in the browser; model inputs are not uploaded. The Python pipelines remain the numerical reference.
+
+Install `app/streamlit/requirements.txt`, run `python app/streamlit/prepare_frontend.py`, then `python -m streamlit run streamlit_app.py`. Asset identities and host checks are recorded in `app/streamlit/frontend-parity.json` and `app/streamlit/verification.json`; original-interface browser checks are in `app/streamlit/exact-browser-checks.json`.

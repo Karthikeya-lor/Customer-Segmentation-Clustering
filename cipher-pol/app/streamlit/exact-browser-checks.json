@@ -1,0 +1,21 @@
+{
+  "status": "PASS",
+  "comparisonViews": 19,
+  "metricCells": 698,
+  "modelDetailViews": 22,
+  "predictionPaths": 21,
+  "trackSections": 15,
+  "originalTextMatches": 15,
+  "plotTracks": 3,
+  "workflowStages": 4,
+  "particleMorph": "PASS",
+  "desktopLayout": "Identical dimensions, fonts and colors for 12 principal elements",
+  "mobile": {
+    "viewportWidth": 390,
+    "contentWidth": 375,
+    "documentWidth": 375,
+    "horizontalOverflow": false
+  },
+  "mobileLayout": "Identical dimensions, fonts and colors for 12 principal elements at 390px",
+  "consoleErrors": []
+}

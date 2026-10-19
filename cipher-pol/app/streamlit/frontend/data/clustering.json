@@ -1,0 +1,799 @@
+{
+  "track": "clustering",
+  "subject": "Marketing Campaign",
+  "dataset": {
+    "filename": "marketing_campaign.csv",
+    "sha256": "cd0affa36b1b981e80ba0e27767e9b3ab723f7a3dba948f722af81abc6b990ea",
+    "rows": 2240,
+    "columns": 29,
+    "target": null,
+    "missing": {
+      "ID": 0,
+      "Year_Birth": 0,
+      "Education": 0,
+      "Marital_Status": 0,
+      "Income": 24,
+      "Kidhome": 0,
+      "Teenhome": 0,
+      "Dt_Customer": 0,
+      "Recency": 0,
+      "MntWines": 0,
+      "MntFruits": 0,
+      "MntMeatProducts": 0,
+      "MntFishProducts": 0,
+      "MntSweetProducts": 0,
+      "MntGoldProds": 0,
+      "NumDealsPurchases": 0,
+      "NumWebPurchases": 0,
+      "NumCatalogPurchases": 0,
+      "NumStorePurchases": 0,
+      "NumWebVisitsMonth": 0,
+      "AcceptedCmp3": 0,
+      "AcceptedCmp4": 0,
+      "AcceptedCmp5": 0,
+      "AcceptedCmp1": 0,
+      "AcceptedCmp2": 0,
+      "Complain": 0,
+      "Z_CostContact": 0,
+      "Z_Revenue": 0,
+      "Response": 0
+    },
+    "exact_duplicates": 0,
+    "dtypes": {
+      "ID": "int64",
+      "Year_Birth": "int64",
+      "Education": "str",
+      "Marital_Status": "str",
+      "Income": "float64",
+      "Kidhome": "int64",
+      "Teenhome": "int64",
+      "Dt_Customer": "str",
+      "Recency": "int64",
+      "MntWines": "int64",
+      "MntFruits": "int64",
+      "MntMeatProducts": "int64",
+      "MntFishProducts": "int64",
+      "MntSweetProducts": "int64",
+      "MntGoldProds": "int64",
+      "NumDealsPurchases": "int64",
+      "NumWebPurchases": "int64",
+      "NumCatalogPurchases": "int64",
+      "NumStorePurchases": "int64",
+      "NumWebVisitsMonth": "int64",
+      "AcceptedCmp3": "int64",
+      "AcceptedCmp4": "int64",
+      "AcceptedCmp5": "int64",
+      "AcceptedCmp1": "int64",
+      "AcceptedCmp2": "int64",
+      "Complain": "int64",
+      "Z_CostContact": "int64",
+      "Z_Revenue": "int64",
+      "Response": "int64"
+    },
+    "preview": [
+      {
+        "ID": 5524,
+        "Year_Birth": 1957,
+        "Education": "Graduation",
+        "Marital_Status": "Single",
+        "Income": 58138.0,
+        "Kidhome": 0,
+        "Teenhome": 0,
+        "Dt_Customer": "04-09-2012",
+        "Recency": 58,
+        "MntWines": 635,
+        "MntFruits": 88,
+        "MntMeatProducts": 546,
+        "MntFishProducts": 172,
+        "MntSweetProducts": 88,
+        "MntGoldProds": 88,
+        "NumDealsPurchases": 3,
+        "NumWebPurchases": 8,
+        "NumCatalogPurchases": 10,
+        "NumStorePurchases": 4,
+        "NumWebVisitsMonth": 7,
+        "AcceptedCmp3": 0,
+        "AcceptedCmp4": 0,
+        "AcceptedCmp5": 0,
+        "AcceptedCmp1": 0,
+        "AcceptedCmp2": 0,
+        "Complain": 0,
+        "Z_CostContact": 3,
+        "Z_Revenue": 11,
+        "Response": 1
+      },
+      {
+        "ID": 2174,
+        "Year_Birth": 1954,
+        "Education": "Graduation",
+        "Marital_Status": "Single",
+        "Income": 46344.0,
+        "Kidhome": 1,
+        "Teenhome": 1,
+        "Dt_Customer": "08-03-2014",
+        "Recency": 38,
+        "MntWines": 11,
+        "MntFruits": 1,
+        "MntMeatProducts": 6,
+        "MntFishProducts": 2,
+        "MntSweetProducts": 1,
+        "MntGoldProds": 6,
+        "NumDealsPurchases": 2,
+        "NumWebPurchases": 1,
+        "NumCatalogPurchases": 1,
+        "NumStorePurchases": 2,
+        "NumWebVisitsMonth": 5,
+        "AcceptedCmp3": 0,
+        "AcceptedCmp4": 0,
+        "AcceptedCmp5": 0,
+        "AcceptedCmp1": 0,
+        "AcceptedCmp2": 0,
+        "Complain": 0,
+        "Z_CostContact": 3,
+        "Z_Revenue": 11,
+        "Response": 0
+      },
+      {
+        "ID": 4141,
+        "Year_Birth": 1965,
+        "Education": "Graduation",
+        "Marital_Status": "Together",
+        "Income": 71613.0,
+        "Kidhome": 0,
+        "Teenhome": 0,
+        "Dt_Customer": "21-08-2013",
+        "Recency": 26,
+        "MntWines": 426,
+        "MntFruits": 49,
+        "MntMeatProducts": 127,
+        "MntFishProducts": 111,
+        "MntSweetProducts": 21,
+        "MntGoldProds": 42,
+        "NumDealsPurchases": 1,
+        "NumWebPurchases": 8,
+        "NumCatalogPurchases": 2,
+        "NumStorePurchases": 10,
+        "NumWebVisitsMonth": 4,
+        "AcceptedCmp3": 0,
+        "AcceptedCmp4": 0,
+        "AcceptedCmp5": 0,
+        "AcceptedCmp1": 0,
+        "AcceptedCmp2": 0,
+        "Complain": 0,
+        "Z_CostContact": 3,
+        "Z_Revenue": 11,
+        "Response": 0
+      },
+      {
+        "ID": 6182,
+        "Year_Birth": 1984,
+        "Education": "Graduation",
+        "Marital_Status": "Together",
+        "Income": 26646.0,
+        "Kidhome": 1,
+        "Teenhome": 0,
+        "Dt_Customer": "10-02-2014",
+        "Recency": 26,
+        "MntWines": 11,
+        "MntFruits": 4,
+        "MntMeatProducts": 20,
+        "MntFishProducts": 10,
+        "MntSweetProducts": 3,
+        "MntGoldProds": 5,
+        "NumDealsPurchases": 2,
+        "NumWebPurchases": 2,
+        "NumCatalogPurchases": 0,
+        "NumStorePurchases": 4,
+        "NumWebVisitsMonth": 6,
+        "AcceptedCmp3": 0,
+        "AcceptedCmp4": 0,
+        "AcceptedCmp5": 0,
+        "AcceptedCmp1": 0,
+        "AcceptedCmp2": 0,
+        "Complain": 0,
+        "Z_CostContact": 3,
+        "Z_Revenue": 11,
+        "Response": 0
+      },
+      {
+        "ID": 5324,
+        "Year_Birth": 1981,
+        "Education": "PhD",
+        "Marital_Status": "Married",
+        "Income": 58293.0,
+        "Kidhome": 1,
+        "Teenhome": 0,
+        "Dt_Customer": "19-01-2014",
+        "Recency": 94,
+        "MntWines": 173,
+        "MntFruits": 43,
+        "MntMeatProducts": 118,
+        "MntFishProducts": 46,
+        "MntSweetProducts": 27,
+        "MntGoldProds": 15,
+        "NumDealsPurchases": 5,
+        "NumWebPurchases": 5,
+        "NumCatalogPurchases": 3,
+        "NumStorePurchases": 6,
+        "NumWebVisitsMonth": 5,
+        "AcceptedCmp3": 0,
+        "AcceptedCmp4": 0,
+        "AcceptedCmp5": 0,
+        "AcceptedCmp1": 0,
+        "AcceptedCmp2": 0,
+        "Complain": 0,
+        "Z_CostContact": 3,
+        "Z_Revenue": 11,
+        "Response": 0
+      },
+      {
+        "ID": 7446,
+        "Year_Birth": 1967,
+        "Education": "Master",
+        "Marital_Status": "Together",
+        "Income": 62513.0,
+        "Kidhome": 0,
+        "Teenhome": 1,
+        "Dt_Customer": "09-09-2013",
+        "Recency": 16,
+        "MntWines": 520,
+        "MntFruits": 42,
+        "MntMeatProducts": 98,
+        "MntFishProducts": 0,
+        "MntSweetProducts": 42,
+        "MntGoldProds": 14,
+        "NumDealsPurchases": 2,
+        "NumWebPurchases": 6,
+        "NumCatalogPurchases": 4,
+        "NumStorePurchases": 10,
+        "NumWebVisitsMonth": 6,
+        "AcceptedCmp3": 0,
+        "AcceptedCmp4": 0,
+        "AcceptedCmp5": 0,
+        "AcceptedCmp1": 0,
+        "AcceptedCmp2": 0,
+        "Complain": 0,
+        "Z_CostContact": 3,
+        "Z_Revenue": 11,
+        "Response": 0
+      },
+      {
+        "ID": 965,
+        "Year_Birth": 1971,
+        "Education": "Graduation",
+        "Marital_Status": "Divorced",
+        "Income": 55635.0,
+        "Kidhome": 0,
+        "Teenhome": 1,
+        "Dt_Customer": "13-11-2012",
+        "Recency": 34,
+        "MntWines": 235,
+        "MntFruits": 65,
+        "MntMeatProducts": 164,
+        "MntFishProducts": 50,
+        "MntSweetProducts": 49,
+        "MntGoldProds": 27,
+        "NumDealsPurchases": 4,
+        "NumWebPurchases": 7,
+        "NumCatalogPurchases": 3,
+        "NumStorePurchases": 7,
+        "NumWebVisitsMonth": 6,
+        "AcceptedCmp3": 0,
+        "AcceptedCmp4": 0,
+        "AcceptedCmp5": 0,
+        "AcceptedCmp1": 0,
+        "AcceptedCmp2": 0,
+        "Complain": 0,
+        "Z_CostContact": 3,
+        "Z_Revenue": 11,
+        "Response": 0
+      },
+      {
+        "ID": 6177,
+        "Year_Birth": 1985,
+        "Education": "PhD",
+        "Marital_Status": "Married",
+        "Income": 33454.0,
+        "Kidhome": 1,
+        "Teenhome": 0,
+        "Dt_Customer": "08-05-2013",
+        "Recency": 32,
+        "MntWines": 76,
+        "MntFruits": 10,
+        "MntMeatProducts": 56,
+        "MntFishProducts": 3,
+        "MntSweetProducts": 1,
+        "MntGoldProds": 23,
+        "NumDealsPurchases": 2,
+        "NumWebPurchases": 4,
+        "NumCatalogPurchases": 0,
+        "NumStorePurchases": 4,
+        "NumWebVisitsMonth": 8,
+        "AcceptedCmp3": 0,
+        "AcceptedCmp4": 0,
+        "AcceptedCmp5": 0,
+        "AcceptedCmp1": 0,
+        "AcceptedCmp2": 0,
+        "Complain": 0,
+        "Z_CostContact": 3,
+        "Z_Revenue": 11,
+        "Response": 0
+      }
+    ],
+    "cleaned_rows": 2058,
+    "fitting_rows": 2058
+  },
+  "comparison": [
+    {
+      "Algorithm": "K-Means",
+      "Clusters": 3,
+      "Silhouette Score": 0.1903277225968413,
+      "Davies-Bouldin Index": 1.812027440050944,
+      "Calinski-Harabasz Index": 530.7124314690531,
+      "Linkage": null
+    },
+    {
+      "Algorithm": "Agglomerative",
+      "Clusters": 3,
+      "Silhouette Score": 0.1733852221519484,
+      "Davies-Bouldin Index": 1.9063111837150104,
+      "Calinski-Harabasz Index": 473.7948036692318,
+      "Linkage": "ward"
+    }
+  ],
+  "metrics": [
+    "Silhouette Score",
+    "Davies-Bouldin Index",
+    "Calinski-Harabasz Index"
+  ],
+  "plots": [
+    {
+      "track": "clustering",
+      "name": "agglomerative_pca",
+      "url": "plots/clustering__agglomerative_pca.png",
+      "source": "r2/results/agglomerative_pca.png",
+      "sha256": "9c4c32d68226de54e33a5b55d36f7e9427637fe7c94a1d14583d030ee64d6d02"
+    },
+    {
+      "track": "clustering",
+      "name": "agglomerative_tsne",
+      "url": "plots/clustering__agglomerative_tsne.png",
+      "source": "r2/results/agglomerative_tsne.png",
+      "sha256": "f3bf81de2c0a1f95243b059dbcf4ca0e5a14c9711133028e416b57ab470f84da"
+    },
+    {
+      "track": "clustering",
+      "name": "dendrogram_average",
+      "url": "plots/clustering__dendrogram_average.png",
+      "source": "r2/results/dendrogram_average.png",
+      "sha256": "d039b91011bc37084638fae3189b45033524fd7e9711bb8df6b5fc7ce16a4c41"
+    },
+    {
+      "track": "clustering",
+      "name": "dendrogram_complete",
+      "url": "plots/clustering__dendrogram_complete.png",
+      "source": "r2/results/dendrogram_complete.png",
+      "sha256": "26111d7d37cb3bfa6033b4fad504c9a73297e1a24f626b1b273bb8a4321810aa"
+    },
+    {
+      "track": "clustering",
+      "name": "dendrogram_ward",
+      "url": "plots/clustering__dendrogram_ward.png",
+      "source": "r2/results/dendrogram_ward.png",
+      "sha256": "1c75d0495af57621dcf82ed0c4b5071bfec77c6d876e460f0a8c95565e47332f"
+    },
+    {
+      "track": "clustering",
+      "name": "k_means_pca",
+      "url": "plots/clustering__k_means_pca.png",
+      "source": "r2/results/k_means_pca.png",
+      "sha256": "9f60e2f14fb79dbd2b0424469371da92f10ee04abf9c291755ba83a41dd4aa36"
+    },
+    {
+      "track": "clustering",
+      "name": "k_means_tsne",
+      "url": "plots/clustering__k_means_tsne.png",
+      "source": "r2/results/k_means_tsne.png",
+      "sha256": "08ad14acf395a0165e869d09a9592e301e48b010c9f2dde4d11db2aa720ae1ec"
+    },
+    {
+      "track": "clustering",
+      "name": "kmeans_elbow",
+      "url": "plots/clustering__kmeans_elbow.png",
+      "source": "r2/results/kmeans_elbow.png",
+      "sha256": "56a326cc3da48ffbe378ac590db886d1bfe51950d46dc54769ab82e2949c5985"
+    },
+    {
+      "track": "clustering",
+      "name": "marketing_correlation",
+      "url": "plots/clustering__marketing_correlation.png",
+      "source": "r2/results/marketing_correlation.png",
+      "sha256": "424fffd0be246f619e92b7af5a94e4afc24cf6a714d600c7cab507fdf9c8fee7"
+    },
+    {
+      "track": "clustering",
+      "name": "marketing_distributions",
+      "url": "plots/clustering__marketing_distributions.png",
+      "source": "r2/results/marketing_distributions.png",
+      "sha256": "6c025939f3b870c88a0e4454c31f4cb6e33567d62abb5de73b535f5ec430fd8a"
+    }
+  ],
+  "team_interpretation_status": "pending original team content",
+  "models": [
+    {
+      "name": "K-Means",
+      "metrics": {
+        "Algorithm": "K-Means",
+        "Clusters": 3,
+        "Silhouette Score": 0.1903277225968413,
+        "Davies-Bouldin Index": 1.812027440050944,
+        "Calinski-Harabasz Index": 530.7124314690531,
+        "Linkage": null
+      },
+      "profiles": [
+        {
+          "Cluster": 0,
+          "Customers": 842,
+          "Income": 32670.384615384617,
+          "Age": 40.496428571428574,
+          "Total_Spend": 96.69239904988123,
+          "Total_Purchases": 5.775534441805226,
+          "Recency": 49.049881235154395
+        },
+        {
+          "Cluster": 1,
+          "Customers": 668,
+          "Income": 57232.433333333334,
+          "Age": 50.546407185628745,
+          "Total_Spend": 655.4805389221557,
+          "Total_Purchases": 15.577844311377245,
+          "Recency": 48.449101796407184
+        },
+        {
+          "Cluster": 2,
+          "Customers": 548,
+          "Income": 76643.14022140221,
+          "Age": 45.550274223034734,
+          "Total_Spend": 1329.1368613138686,
+          "Total_Purchases": 19.193430656934307,
+          "Recency": 49.41423357664234
+        }
+      ],
+      "cluster_sizes": {
+        "0": 842,
+        "1": 668,
+        "2": 548
+      },
+      "resampling": [
+        {
+          "Algorithm": "K-Means",
+          "Fold": 1,
+          "Silhouette Score": 0.1910104777393222,
+          "Davies-Bouldin Index": 1.8103624436217451,
+          "Calinski-Harabasz Index": 425.63306767683764,
+          "ARI_vs_full_fit": 0.9708023671453332
+        },
+        {
+          "Algorithm": "K-Means",
+          "Fold": 2,
+          "Silhouette Score": 0.19367081344666126,
+          "Davies-Bouldin Index": 1.792082974412392,
+          "Calinski-Harabasz Index": 429.7392743415992,
+          "ARI_vs_full_fit": 0.9647831671511403
+        },
+        {
+          "Algorithm": "K-Means",
+          "Fold": 3,
+          "Silhouette Score": 0.1883713075342212,
+          "Davies-Bouldin Index": 1.8208036150542732,
+          "Calinski-Harabasz Index": 419.2700623926828,
+          "ARI_vs_full_fit": 0.9603261279178176
+        },
+        {
+          "Algorithm": "K-Means",
+          "Fold": 4,
+          "Silhouette Score": 0.19196968668647688,
+          "Davies-Bouldin Index": 1.8081924658321606,
+          "Calinski-Harabasz Index": 428.50469232912553,
+          "ARI_vs_full_fit": 0.9702864762867638
+        },
+        {
+          "Algorithm": "K-Means",
+          "Fold": 5,
+          "Silhouette Score": 0.18751527596126646,
+          "Davies-Bouldin Index": 1.8214112772890871,
+          "Calinski-Harabasz Index": 421.43839434415196,
+          "ARI_vs_full_fit": 0.983804452692558
+        }
+      ]
+    },
+    {
+      "name": "Agglomerative",
+      "metrics": {
+        "Algorithm": "Agglomerative",
+        "Clusters": 3,
+        "Silhouette Score": 0.1733852221519484,
+        "Davies-Bouldin Index": 1.9063111837150104,
+        "Calinski-Harabasz Index": 473.7948036692318,
+        "Linkage": "ward"
+      },
+      "profiles": [
+        {
+          "Cluster": 0,
+          "Customers": 687,
+          "Income": 58399.19764011799,
+          "Age": 49.96209912536443,
+          "Total_Spend": 690.2387190684134,
+          "Total_Purchases": 15.77292576419214,
+          "Recency": 51.835516739446874
+        },
+        {
+          "Cluster": 1,
+          "Customers": 876,
+          "Income": 33444.100461893766,
+          "Age": 41.256,
+          "Total_Spend": 123.29794520547945,
+          "Total_Purchases": 6.350456621004566,
+          "Recency": 47.10730593607306
+        },
+        {
+          "Cluster": 2,
+          "Customers": 495,
+          "Income": 77425.51224489795,
+          "Age": 45.19230769230769,
+          "Total_Spend": 1344.3232323232323,
+          "Total_Purchases": 18.965656565656566,
+          "Recency": 48.214141414141416
+        }
+      ],
+      "cluster_sizes": {
+        "0": 687,
+        "1": 876,
+        "2": 495
+      },
+      "resampling": [
+        {
+          "Algorithm": "Agglomerative",
+          "Fold": 1,
+          "Silhouette Score": 0.17328470519490766,
+          "Davies-Bouldin Index": 1.8717383054474033,
+          "Calinski-Harabasz Index": 381.11021343689544,
+          "ARI_vs_full_fit": 0.700108924989136
+        },
+        {
+          "Algorithm": "Agglomerative",
+          "Fold": 2,
+          "Silhouette Score": 0.16573154859089156,
+          "Davies-Bouldin Index": 1.9179987985921692,
+          "Calinski-Harabasz Index": 366.3855203691422,
+          "ARI_vs_full_fit": 0.6937772159519243
+        },
+        {
+          "Algorithm": "Agglomerative",
+          "Fold": 3,
+          "Silhouette Score": 0.17112882085428674,
+          "Davies-Bouldin Index": 1.9341746013277026,
+          "Calinski-Harabasz Index": 374.96160630117436,
+          "ARI_vs_full_fit": 0.7067416728650195
+        },
+        {
+          "Algorithm": "Agglomerative",
+          "Fold": 4,
+          "Silhouette Score": 0.16397031683454602,
+          "Davies-Bouldin Index": 1.8776545694322628,
+          "Calinski-Harabasz Index": 358.68100245838156,
+          "ARI_vs_full_fit": 0.5758109927930141
+        },
+        {
+          "Algorithm": "Agglomerative",
+          "Fold": 5,
+          "Silhouette Score": 0.17518851167397703,
+          "Davies-Bouldin Index": 1.905723450553717,
+          "Calinski-Harabasz Index": 384.45063621261386,
+          "ARI_vs_full_fit": 0.706692950830438
+        }
+      ]
+    }
+  ],
+  "reference_date": "2014-06-29",
+  "input_fields": [
+    {
+      "name": "Education",
+      "type": "category",
+      "choices": [
+        "2n Cycle",
+        "Basic",
+        "Graduation",
+        "Master",
+        "PhD"
+      ],
+      "default": "Graduation"
+    },
+    {
+      "name": "Marital_Status",
+      "type": "category",
+      "choices": [
+        "Absurd",
+        "Alone",
+        "Divorced",
+        "Married",
+        "Single",
+        "Together",
+        "Widow",
+        "YOLO"
+      ],
+      "default": "Married"
+    },
+    {
+      "name": "Income",
+      "type": "number",
+      "minimum_observed": 1730.0,
+      "maximum_observed": 666666.0,
+      "default": 51533.0,
+      "observed_range_is_not_a_hard_limit": true
+    },
+    {
+      "name": "Kidhome",
+      "type": "number",
+      "minimum_observed": 0.0,
+      "maximum_observed": 2.0,
+      "default": 0.0,
+      "observed_range_is_not_a_hard_limit": true
+    },
+    {
+      "name": "Teenhome",
+      "type": "number",
+      "minimum_observed": 0.0,
+      "maximum_observed": 2.0,
+      "default": 0.0,
+      "observed_range_is_not_a_hard_limit": true
+    },
+    {
+      "name": "Recency",
+      "type": "number",
+      "minimum_observed": 0.0,
+      "maximum_observed": 99.0,
+      "default": 49.0,
+      "observed_range_is_not_a_hard_limit": true
+    },
+    {
+      "name": "NumDealsPurchases",
+      "type": "number",
+      "minimum_observed": 0.0,
+      "maximum_observed": 15.0,
+      "default": 2.0,
+      "observed_range_is_not_a_hard_limit": true
+    },
+    {
+      "name": "NumWebVisitsMonth",
+      "type": "number",
+      "minimum_observed": 0.0,
+      "maximum_observed": 20.0,
+      "default": 6.0,
+      "observed_range_is_not_a_hard_limit": true
+    },
+    {
+      "name": "Age",
+      "type": "number",
+      "minimum_observed": 18.0,
+      "maximum_observed": 74.0,
+      "default": 44.0,
+      "observed_range_is_not_a_hard_limit": true
+    },
+    {
+      "name": "Customer_Tenure_Days",
+      "type": "number",
+      "minimum_observed": 0.0,
+      "maximum_observed": 699.0,
+      "default": 352.0,
+      "observed_range_is_not_a_hard_limit": true
+    },
+    {
+      "name": "Total_Spend",
+      "type": "number",
+      "minimum_observed": 5.0,
+      "maximum_observed": 2525.0,
+      "default": 396.5,
+      "observed_range_is_not_a_hard_limit": true
+    },
+    {
+      "name": "Total_Purchases",
+      "type": "number",
+      "minimum_observed": 0.0,
+      "maximum_observed": 32.0,
+      "default": 12.0,
+      "observed_range_is_not_a_hard_limit": true
+    }
+  ],
+  "example_input": {
+    "Education": "Graduation",
+    "Marital_Status": "Single",
+    "Income": 58138.0,
+    "Kidhome": 0,
+    "Teenhome": 0,
+    "Recency": 58,
+    "NumDealsPurchases": 3,
+    "NumWebVisitsMonth": 7,
+    "Age": 57.0,
+    "Customer_Tenure_Days": 663,
+    "Total_Spend": 1617,
+    "Total_Purchases": 22
+  },
+  "elbow": [
+    {
+      "k": 1,
+      "Inertia": 23445.606413994203
+    },
+    {
+      "k": 2,
+      "Inertia": 17692.341076221106
+    },
+    {
+      "k": 3,
+      "Inertia": 15460.254393983398
+    },
+    {
+      "k": 4,
+      "Inertia": 14246.608160317865
+    },
+    {
+      "k": 5,
+      "Inertia": 13430.62971846049
+    },
+    {
+      "k": 6,
+      "Inertia": 12867.904634546316
+    },
+    {
+      "k": 7,
+      "Inertia": 12348.980546041636
+    },
+    {
+      "k": 8,
+      "Inertia": 11920.150800161795
+    },
+    {
+      "k": 9,
+      "Inertia": 11553.22612743526
+    },
+    {
+      "k": 10,
+      "Inertia": 11291.42922660261
+    }
+  ],
+  "linkages": [
+    {
+      "Linkage": "ward",
+      "Clusters": 3,
+      "Minimum_cluster_size": 495,
+      "Silhouette Score": 0.1733852221519484,
+      "Davies-Bouldin Index": 1.9063111837150102,
+      "Calinski-Harabasz Index": 473.7948036692318
+    },
+    {
+      "Linkage": "complete",
+      "Clusters": 3,
+      "Minimum_cluster_size": 236,
+      "Silhouette Score": 0.07307365142274146,
+      "Davies-Bouldin Index": 2.1422208476741074,
+      "Calinski-Harabasz Index": 306.39436093013427
+    },
+    {
+      "Linkage": "average",
+      "Clusters": 3,
+      "Minimum_cluster_size": 2,
+      "Silhouette Score": 0.14924835323851549,
+      "Davies-Bouldin Index": 1.2912829603297669,
+      "Calinski-Harabasz Index": 10.455558376750197
+    }
+  ],
+  "prediction_support": {
+    "K-Means": true,
+    "Agglomerative": false
+  },
+  "pca_explained_variance_ratio": [
+    0.3116550148807033,
+    0.1552551873010103
+  ],
+  "linkage_selection_rule": "minimum cluster size >=2% of cohort, then maximum silhouette"
+}

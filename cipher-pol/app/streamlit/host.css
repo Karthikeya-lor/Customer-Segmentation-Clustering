@@ -1,0 +1,9 @@
+<style>
+/* Full-viewport host: all visual design lives in the unmodified website stylesheet. */
+header[data-testid="stHeader"], [data-testid="stToolbar"], footer {display:none!important}
+html, body, [data-testid="stApp"], [data-testid="stAppViewContainer"],
+[data-testid="stMain"] {margin:0!important;padding:0!important;overflow:hidden!important}
+[data-testid="stMainBlockContainer"] {padding:0!important;max-width:none!important}
+[data-testid="stCustomComponentV1"] {position:fixed!important;inset:0!important;width:100%!important;height:100dvh!important;z-index:10}
+[data-testid="stCustomComponentV1"] iframe {display:block!important;border:0!important;width:100%!important;height:100%!important}
+</style>

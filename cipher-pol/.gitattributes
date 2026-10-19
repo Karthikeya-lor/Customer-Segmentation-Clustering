@@ -3,6 +3,10 @@
 *.ipynb -text
 *.joblib binary
 *.png binary
+*.js -text
+*.css -text
+*.html -text
+*.svg -text
+*.md -text
 *.py text eol=lf
-*.css text eol=lf
 *.toml text eol=lf
