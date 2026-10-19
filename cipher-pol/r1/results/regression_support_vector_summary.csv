@@ -1,0 +1,2 @@
+Model,R2,RMSE,MAE,CV_R2_Mean,CV_R2_Std,Best_parameters,Split_signature
+Support Vector Regression,0.9448785682979229,972.3204402973714,519.5976111698419,0.9516833232790294,0.006005803679177536,"{""model__regressor__C"": 10, ""model__regressor__kernel"": ""rbf""}",ea5c3cd898dcf96d05838c8ff32d9958ab901192a50c0324bf1c446c303e227a

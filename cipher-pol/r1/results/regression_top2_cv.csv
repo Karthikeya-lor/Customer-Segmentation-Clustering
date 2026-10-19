@@ -1,0 +1,11 @@
+Model,Fold,R2,Top_two_test_rank
+Support Vector Regression,1,0.942450485162666,True
+Support Vector Regression,2,0.9524944423687406,True
+Support Vector Regression,3,0.9501448164664555,True
+Support Vector Regression,4,0.9520550133281306,True
+Support Vector Regression,5,0.9612718590691545,True
+Lasso Regression,1,0.9389879924166847,True
+Lasso Regression,2,0.9399549289818704,True
+Lasso Regression,3,0.9193952814881041,True
+Lasso Regression,4,0.9375434592680892,True
+Lasso Regression,5,0.9357140120173176,True

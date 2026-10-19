@@ -1,0 +1,2 @@
+Model,R2,RMSE,MAE,CV_R2_Mean,CV_R2_Std,Best_parameters,Split_signature
+Random Forest Regression,0.9241447273980106,1140.6228243569683,549.3060267857143,0.9357402922194474,0.007681325892372216,"{""model__max_depth"": null, ""model__min_samples_leaf"": 1, ""model__n_estimators"": 200}",ea5c3cd898dcf96d05838c8ff32d9958ab901192a50c0324bf1c446c303e227a

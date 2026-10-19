@@ -1,0 +1,6 @@
+{
+  "selected_model": "Support Vector Regression",
+  "selection_rule": "highest training five-fold CV R2",
+  "best_test_R2_model": "Support Vector Regression",
+  "split_signature": "ea5c3cd898dcf96d05838c8ff32d9958ab901192a50c0324bf1c446c303e227a"
+}

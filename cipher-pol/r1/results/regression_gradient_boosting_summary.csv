@@ -1,0 +1,2 @@
+Model,R2,RMSE,MAE,CV_R2_Mean,CV_R2_Std,Best_parameters,Split_signature
+Gradient Boosting Regression,0.9308586728130773,1088.97529407318,511.7952958537261,0.9431709463019698,0.00661044991077406,"{""model__learning_rate"": 0.15, ""model__max_depth"": 3, ""model__n_estimators"": 150}",ea5c3cd898dcf96d05838c8ff32d9958ab901192a50c0324bf1c446c303e227a

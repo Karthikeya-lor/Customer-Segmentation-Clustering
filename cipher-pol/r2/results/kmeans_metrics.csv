@@ -1,0 +1,2 @@
+Algorithm,Clusters,Silhouette Score,Davies-Bouldin Index,Calinski-Harabasz Index
+K-Means,3,0.19032772259684133,1.812027440050944,530.7124314690531

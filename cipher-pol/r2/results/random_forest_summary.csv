@@ -1,0 +1,2 @@
+Algorithm,Accuracy,Precision,Recall,F1_weighted,ROC_AUC,CV_F1_mean,CV_F1_std,Best_parameters,Split_signature
+Random Forest,0.9815789473684211,0.981873019813685,0.9815789473684211,0.9815538064781352,0.9940521068945296,0.9881573685153908,0.005338183687236371,"{""model__max_depth"": null, ""model__min_samples_split"": 2, ""model__n_estimators"": 100}",0ea503ff00dec3c3a1efb58f95426a5a95a482c2ef1ff25173a0d0a219e9bb47

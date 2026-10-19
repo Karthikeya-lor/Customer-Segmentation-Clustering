@@ -1,0 +1,2 @@
+Model,R2,RMSE,MAE,CV_R2_Mean,CV_R2_Std,Best_parameters,Split_signature
+Polynomial Regression,0.9341494776606685,1062.7442971573478,692.8041338776569,0.9141481119517613,0.0485178916063943,"{""preprocessor__num__polynomial__degree"": 2}",ea5c3cd898dcf96d05838c8ff32d9958ab901192a50c0324bf1c446c303e227a

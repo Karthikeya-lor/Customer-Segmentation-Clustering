@@ -1,0 +1,3 @@
+Algorithm,Clusters,Silhouette Score,Davies-Bouldin Index,Calinski-Harabasz Index,Linkage
+K-Means,3,0.1903277225968413,1.812027440050944,530.7124314690531,
+Agglomerative,3,0.1733852221519484,1.9063111837150104,473.7948036692318,ward

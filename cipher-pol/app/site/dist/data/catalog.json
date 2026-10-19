@@ -1,0 +1,87 @@
+{
+  "schema_version": 1,
+  "design_status": "reference-led website implemented in app/site",
+  "tracks": [
+    {
+      "id": "regression",
+      "subject": "Diamonds",
+      "models": 10,
+      "data_url": "data/regression.json",
+      "data_sha256": "5d59ca12bb5f5def1c842c049fc72d45d130132325e2964a0995c5a7a970a9fb",
+      "dataset_rows": 2100
+    },
+    {
+      "id": "classification",
+      "subject": "Rice",
+      "models": 10,
+      "data_url": "data/classification.json",
+      "data_sha256": "6dfc2d419ba0b6d129f5f190892110f43574c8ddd64c89cb423884ac4ca868bb",
+      "dataset_rows": 1900
+    },
+    {
+      "id": "clustering",
+      "subject": "Marketing Campaign",
+      "models": 2,
+      "data_url": "data/clustering.json",
+      "data_sha256": "5f8f9f720263c97e94a1bff8bbc34d22fb277ef965bb4a624b32e67e3989b151",
+      "dataset_rows": 2240
+    }
+  ],
+  "metric_definitions": {
+    "R2": {
+      "direction": "higher",
+      "unit": "score",
+      "definition": "One minus squared error relative to the mean-target baseline; can be negative."
+    },
+    "RMSE": {
+      "direction": "lower",
+      "unit": "dataset price units",
+      "definition": "Square root of mean squared prediction error; emphasizes large errors."
+    },
+    "MAE": {
+      "direction": "lower",
+      "unit": "dataset price units",
+      "definition": "Mean absolute prediction error."
+    },
+    "Accuracy": {
+      "direction": "higher",
+      "unit": "fraction",
+      "definition": "Fraction of correctly classified observations."
+    },
+    "Precision": {
+      "direction": "higher",
+      "unit": "fraction",
+      "definition": "Per-class precision averaged by true class support."
+    },
+    "Recall": {
+      "direction": "higher",
+      "unit": "fraction",
+      "definition": "Per-class recall averaged by true class support."
+    },
+    "F1_weighted": {
+      "direction": "higher",
+      "unit": "fraction",
+      "definition": "Per-class harmonic mean of precision and recall, averaged by true class support."
+    },
+    "ROC_AUC": {
+      "direction": "higher",
+      "unit": "score",
+      "definition": "Probability-ranking discrimination; weighted one-versus-rest for multiclass."
+    },
+    "Silhouette Score": {
+      "direction": "higher",
+      "unit": "score",
+      "definition": "Relative within-cluster cohesion versus nearest-cluster separation; range -1 to 1."
+    },
+    "Davies-Bouldin Index": {
+      "direction": "lower",
+      "unit": "index",
+      "definition": "Average worst-case cluster scatter relative to separation."
+    },
+    "Calinski-Harabasz Index": {
+      "direction": "higher",
+      "unit": "index",
+      "definition": "Between-cluster dispersion relative to within-cluster dispersion."
+    }
+  }
+}

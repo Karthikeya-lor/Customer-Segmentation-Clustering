@@ -1,0 +1,2 @@
+Model,R2,RMSE,MAE,CV_R2_Mean,CV_R2_Std,Best_parameters,Split_signature
+KNN Regression,0.9087797301426801,1250.8200881459588,668.232270946196,0.9164910705660956,0.00397489703187252,"{""model__n_neighbors"": 11, ""model__weights"": ""distance""}",ea5c3cd898dcf96d05838c8ff32d9958ab901192a50c0324bf1c446c303e227a

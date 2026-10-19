@@ -1,0 +1,2 @@
+Model,R2,RMSE,MAE,CV_R2_Mean,CV_R2_Std,Best_parameters,Split_signature
+Decision Tree Regression,0.8988132526697814,1317.37976648768,656.5271961543743,0.8958981094159698,0.011599284724511081,"{""model__max_depth"": 12, ""model__min_samples_leaf"": 3}",ea5c3cd898dcf96d05838c8ff32d9958ab901192a50c0324bf1c446c303e227a

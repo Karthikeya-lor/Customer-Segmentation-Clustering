@@ -1,0 +1,2 @@
+Algorithm,Accuracy,Precision,Recall,F1_weighted,ROC_AUC,CV_F1_mean,CV_F1_std,Best_parameters,Split_signature
+Bagging,0.9815789473684211,0.981873019813685,0.9815789473684211,0.9815538064781352,0.9917204210996622,0.9861829209795546,0.004829218162708572,"{""model__estimator__max_depth"": null, ""model__max_samples"": 1.0, ""model__n_estimators"": 100}",0ea503ff00dec3c3a1efb58f95426a5a95a482c2ef1ff25173a0d0a219e9bb47

@@ -1,0 +1,2 @@
+Model,R2,RMSE,MAE,CV_R2_Mean,CV_R2_Std,Best_parameters,Split_signature
+ElasticNet Regression,0.9351260732518765,1054.8343505448333,695.3312914381956,0.9344405622884709,0.00735293322463442,"{""model__alpha"": 0.001, ""model__l1_ratio"": 0.9}",ea5c3cd898dcf96d05838c8ff32d9958ab901192a50c0324bf1c446c303e227a

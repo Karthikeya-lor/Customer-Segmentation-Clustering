@@ -1,0 +1,409 @@
+{
+  "status": "PASS",
+  "supervised": [
+    {
+      "track": "regression",
+      "model": "Linear Regression",
+      "status": "PASS",
+      "test_rows": 420,
+      "fresh_baseline_and_tuned_refits": true,
+      "full_search_configurations": 1,
+      "replayed_cv_fits": 5,
+      "metrics": {
+        "R2": 0.9351953393528681,
+        "RMSE": 1054.2710751314778,
+        "MAE": 697.4777190127008
+      }
+    },
+    {
+      "track": "regression",
+      "model": "Ridge Regression",
+      "status": "PASS",
+      "test_rows": 420,
+      "fresh_baseline_and_tuned_refits": true,
+      "full_search_configurations": 3,
+      "replayed_cv_fits": 15,
+      "metrics": {
+        "R2": 0.9351574010668575,
+        "RMSE": 1054.579628444204,
+        "MAE": 696.1854650561644
+      }
+    },
+    {
+      "track": "regression",
+      "model": "Lasso Regression",
+      "status": "PASS",
+      "test_rows": 420,
+      "fresh_baseline_and_tuned_refits": true,
+      "full_search_configurations": 3,
+      "replayed_cv_fits": 15,
+      "metrics": {
+        "R2": 0.9352442048446228,
+        "RMSE": 1053.8735173842904,
+        "MAE": 696.5468049493161
+      }
+    },
+    {
+      "track": "regression",
+      "model": "ElasticNet Regression",
+      "status": "PASS",
+      "test_rows": 420,
+      "fresh_baseline_and_tuned_refits": true,
+      "full_search_configurations": 9,
+      "replayed_cv_fits": 45,
+      "metrics": {
+        "R2": 0.9351260732518765,
+        "RMSE": 1054.8343505448333,
+        "MAE": 695.3312914381956
+      }
+    },
+    {
+      "track": "regression",
+      "model": "Polynomial Regression",
+      "status": "PASS",
+      "test_rows": 420,
+      "fresh_baseline_and_tuned_refits": true,
+      "full_search_configurations": 2,
+      "replayed_cv_fits": 10,
+      "metrics": {
+        "R2": 0.9341494776606685,
+        "RMSE": 1062.7442971573478,
+        "MAE": 692.8041338776569
+      }
+    },
+    {
+      "track": "regression",
+      "model": "Decision Tree Regression",
+      "status": "PASS",
+      "test_rows": 420,
+      "fresh_baseline_and_tuned_refits": true,
+      "full_search_configurations": 8,
+      "replayed_cv_fits": 40,
+      "metrics": {
+        "R2": 0.8988132526697814,
+        "RMSE": 1317.37976648768,
+        "MAE": 656.5271961543743
+      }
+    },
+    {
+      "track": "regression",
+      "model": "Random Forest Regression",
+      "status": "PASS",
+      "test_rows": 420,
+      "fresh_baseline_and_tuned_refits": true,
+      "full_search_configurations": 8,
+      "replayed_cv_fits": 40,
+      "metrics": {
+        "R2": 0.9241447273980106,
+        "RMSE": 1140.6228243569683,
+        "MAE": 549.3060267857143
+      }
+    },
+    {
+      "track": "regression",
+      "model": "Gradient Boosting Regression",
+      "status": "PASS",
+      "test_rows": 420,
+      "fresh_baseline_and_tuned_refits": true,
+      "full_search_configurations": 12,
+      "replayed_cv_fits": 60,
+      "metrics": {
+        "R2": 0.9308586728130773,
+        "RMSE": 1088.97529407318,
+        "MAE": 511.7952958537261
+      }
+    },
+    {
+      "track": "regression",
+      "model": "Support Vector Regression",
+      "status": "PASS",
+      "test_rows": 420,
+      "fresh_baseline_and_tuned_refits": true,
+      "full_search_configurations": 6,
+      "replayed_cv_fits": 30,
+      "metrics": {
+        "R2": 0.9448785682979229,
+        "RMSE": 972.3204402973714,
+        "MAE": 519.5976111698419
+      }
+    },
+    {
+      "track": "regression",
+      "model": "KNN Regression",
+      "status": "PASS",
+      "test_rows": 420,
+      "fresh_baseline_and_tuned_refits": true,
+      "full_search_configurations": 8,
+      "replayed_cv_fits": 40,
+      "metrics": {
+        "R2": 0.9087797301426801,
+        "RMSE": 1250.8200881459588,
+        "MAE": 668.232270946196
+      }
+    },
+    {
+      "track": "classification",
+      "model": "Logistic Regression",
+      "status": "PASS",
+      "test_rows": 380,
+      "fresh_baseline_and_tuned_refits": true,
+      "full_search_configurations": 3,
+      "replayed_cv_fits": 15,
+      "metrics": {
+        "Accuracy": 0.9815789473684211,
+        "Precision": 0.981873019813685,
+        "Recall": 0.9815789473684211,
+        "F1_weighted": 0.9815538064781352,
+        "ROC_AUC": 0.9959509647873559
+      }
+    },
+    {
+      "track": "classification",
+      "model": "K-Nearest Neighbors",
+      "status": "PASS",
+      "test_rows": 380,
+      "fresh_baseline_and_tuned_refits": true,
+      "full_search_configurations": 12,
+      "replayed_cv_fits": 60,
+      "metrics": {
+        "Accuracy": 0.9815789473684211,
+        "Precision": 0.981873019813685,
+        "Recall": 0.9815789473684211,
+        "F1_weighted": 0.9815538064781352,
+        "ROC_AUC": 0.9895143950182904
+      }
+    },
+    {
+      "track": "classification",
+      "model": "Naive Bayes",
+      "status": "PASS",
+      "test_rows": 380,
+      "fresh_baseline_and_tuned_refits": true,
+      "full_search_configurations": 3,
+      "replayed_cv_fits": 15,
+      "metrics": {
+        "Accuracy": 0.9842105263157894,
+        "Precision": 0.9846553002223869,
+        "Recall": 0.9842105263157894,
+        "F1_weighted": 0.9841839893852278,
+        "ROC_AUC": 0.9956158722180336
+      }
+    },
+    {
+      "track": "classification",
+      "model": "Decision Tree",
+      "status": "PASS",
+      "test_rows": 380,
+      "fresh_baseline_and_tuned_refits": true,
+      "full_search_configurations": 6,
+      "replayed_cv_fits": 30,
+      "metrics": {
+        "Accuracy": 0.9815789473684211,
+        "Precision": 0.981873019813685,
+        "Recall": 0.9815789473684211,
+        "F1_weighted": 0.9815538064781352,
+        "ROC_AUC": 0.9880902515986708
+      }
+    },
+    {
+      "track": "classification",
+      "model": "Support Vector Machine",
+      "status": "PASS",
+      "test_rows": 380,
+      "fresh_baseline_and_tuned_refits": true,
+      "full_search_configurations": 6,
+      "replayed_cv_fits": 30,
+      "metrics": {
+        "Accuracy": 0.9815789473684211,
+        "Precision": 0.981873019813685,
+        "Recall": 0.9815789473684211,
+        "F1_weighted": 0.9815538064781352,
+        "ROC_AUC": 0.9956996453603641
+      }
+    },
+    {
+      "track": "classification",
+      "model": "Random Forest",
+      "status": "PASS",
+      "test_rows": 380,
+      "fresh_baseline_and_tuned_refits": true,
+      "full_search_configurations": 8,
+      "replayed_cv_fits": 40,
+      "metrics": {
+        "Accuracy": 0.9815789473684211,
+        "Precision": 0.981873019813685,
+        "Recall": 0.9815789473684211,
+        "F1_weighted": 0.9815538064781352,
+        "ROC_AUC": 0.9940521068945296
+      }
+    },
+    {
+      "track": "classification",
+      "model": "AdaBoost",
+      "status": "PASS",
+      "test_rows": 380,
+      "fresh_baseline_and_tuned_refits": true,
+      "full_search_configurations": 9,
+      "replayed_cv_fits": 45,
+      "metrics": {
+        "Accuracy": 0.9815789473684211,
+        "Precision": 0.981873019813685,
+        "Recall": 0.9815789473684211,
+        "F1_weighted": 0.9815538064781352,
+        "ROC_AUC": 0.9945826701292898
+      }
+    },
+    {
+      "track": "classification",
+      "model": "Gradient Boosting",
+      "status": "PASS",
+      "test_rows": 380,
+      "fresh_baseline_and_tuned_refits": true,
+      "full_search_configurations": 8,
+      "replayed_cv_fits": 40,
+      "metrics": {
+        "Accuracy": 0.9815789473684211,
+        "Precision": 0.981873019813685,
+        "Recall": 0.9815789473684211,
+        "F1_weighted": 0.9815538064781352,
+        "ROC_AUC": 0.9943453128926866
+      }
+    },
+    {
+      "track": "classification",
+      "model": "Bagging",
+      "status": "PASS",
+      "test_rows": 380,
+      "fresh_baseline_and_tuned_refits": true,
+      "full_search_configurations": 8,
+      "replayed_cv_fits": 40,
+      "metrics": {
+        "Accuracy": 0.9815789473684211,
+        "Precision": 0.981873019813685,
+        "Recall": 0.9815789473684211,
+        "F1_weighted": 0.9815538064781352,
+        "ROC_AUC": 0.9917204210996622
+      }
+    },
+    {
+      "track": "classification",
+      "model": "MLP",
+      "status": "PASS",
+      "test_rows": 380,
+      "fresh_baseline_and_tuned_refits": true,
+      "full_search_configurations": 12,
+      "replayed_cv_fits": 60,
+      "metrics": {
+        "Accuracy": 0.9842105263157894,
+        "Precision": 0.9846553002223869,
+        "Recall": 0.9842105263157894,
+        "F1_weighted": 0.9841839893852278,
+        "ROC_AUC": 0.9936611655636537
+      }
+    }
+  ],
+  "clustering": [
+    {
+      "model": "K-Means",
+      "status": "PASS",
+      "fresh_full_cohort_refit": true,
+      "assignment_rows": 2058,
+      "five_subset_refits": true,
+      "profiles_sizes_metrics": "PASS"
+    },
+    {
+      "model": "Agglomerative",
+      "status": "PASS",
+      "fresh_full_cohort_refit": true,
+      "assignment_rows": 2058,
+      "five_subset_refits": true,
+      "profiles_sizes_metrics": "PASS"
+    }
+  ],
+  "finished_utc": "2026-10-19T07:42:46.085158+00:00",
+  "assets": {
+    "datasets": 3,
+    "dataset_hashes_schemas_missing_values_previews": "PASS",
+    "source_identical_plot_files": 60,
+    "executed_notebook_downloads": 3,
+    "source_identical_comparison_downloads": 3
+  },
+  "browser_inference": {
+    "status": "PASS",
+    "models": 21,
+    "coverage": "All cleaned rows, random interior inputs, observed extrema and missing-input imputation",
+    "predictionChecks": 45267,
+    "maximumProbabilityError": 6.772360450213455e-15,
+    "maximumPriceError": 2.360138751100749e-10,
+    "maximumHoldoutPriceError": 2.360138751100749e-10,
+    "maximumDistanceError": 1.9984014443252818e-15,
+    "displayedPriceMismatches": 0,
+    "classAndClusterMismatches": 0,
+    "tolerances": {
+      "allPrices": 1e-06,
+      "displayedPrice": "Identical to 2 decimal places",
+      "probability": 1e-08,
+      "centroidDistance": 1e-08
+    }
+  },
+  "browser_ui": {
+    "status": "PASS",
+    "comparisonViews": 19,
+    "metricCells": 698,
+    "predictionPaths": 21,
+    "mobileWidth": 390,
+    "mobileOverflow": false,
+    "consoleErrorsObserved": 0,
+    "asset_sha256": {
+      "index.html": "e158ebbca2a59895eccfb3e6f8fde41d3ba3aa5ba8fd54a36a5c29ba1698567a",
+      "app.js": "264e61cd18664bab8aef62523d48dff7dd053f4545f91bde3b9ec951552b0af6",
+      "inference.js": "50c79f145929c9e75b532ff8f3024c504b1585d8e2aa26f151914484b3d37e5f",
+      "styles.css": "88c6397d4503cc4d2a45fea32c4c3461de091956129ca7a3e4a6285fa9ca2b32",
+      "data/regression.json": "5d59ca12bb5f5def1c842c049fc72d45d130132325e2964a0995c5a7a970a9fb",
+      "data/classification.json": "6dfc2d419ba0b6d129f5f190892110f43574c8ddd64c89cb423884ac4ca868bb",
+      "data/clustering.json": "5f8f9f720263c97e94a1bff8bbc34d22fb277ef965bb4a624b32e67e3989b151"
+    },
+    "focusedDetailChecks": [
+      "SVM shows coefficients without odds ratios",
+      "Logistic regression retains odds ratios"
+    ]
+  },
+  "fresh_search_configurations": 135,
+  "fresh_cv_fits": 675,
+  "exported_json_metric_recomputation": "All 80 held-out metrics from website predictions/probabilities PASS; all baseline/tuned/search exports lossless",
+  "corrections": [
+    "Cipher Pol branding",
+    "Lossless numeric JSON exports",
+    "Missing derived features preserved for fitted imputation",
+    "Deterministic KNN regression kd_tree neighbor search; notebook, model and outputs regenerated",
+    "Odds ratios restricted to logistic regression; removed invalid SVM odds-ratio interpretation"
+  ],
+  "datasets": {
+    "regression": {
+      "filename": "diamonds_sampled.csv",
+      "sha256": "7b6140d7eb1915ec063842e070c3a8cb75b6153a0e5da2b71f0a6a266acf7620",
+      "rows": 2100,
+      "columns": 11,
+      "training_rows": 1679,
+      "test_rows": 420,
+      "cleaned_rows": 2099
+    },
+    "classification": {
+      "filename": "riceClassification_sampled.csv",
+      "sha256": "29f106dd3729c9f5dac7ac082d874bcbdb0004fd680ac71b90966bda28922bd9",
+      "rows": 1900,
+      "columns": 12,
+      "training_rows": 1520,
+      "test_rows": 380,
+      "cleaned_rows": 1900
+    },
+    "clustering": {
+      "filename": "marketing_campaign.csv",
+      "sha256": "cd0affa36b1b981e80ba0e27767e9b3ab723f7a3dba948f722af81abc6b990ea",
+      "rows": 2240,
+      "columns": 29,
+      "cleaned_rows": 2058,
+      "fitting_rows": 2058
+    }
+  }
+}
